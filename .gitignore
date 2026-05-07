@@ -1,0 +1,16 @@
+# Runtime and local state
+ide/
+session-state/
+
+# VS Code Copilot local cache and metadata
+*.cache.json
+*.log
+*.tmp
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Keep personal assets versioned
+!agents/
+!english/
