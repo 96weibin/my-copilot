@@ -47,4 +47,22 @@
   - example: We can see the correct expression value. / The page shows the correct result.
   - status: learning
 
+- roll ... over
+  - note: 把未完成的工作顺延到下一个 iteration 或 sprint
+  - example: If this story is not done by Friday, we can roll it over to the next sprint.
+  - template: roll [story/task/work] over to the next [iteration/sprint]
+  - status: learning
+
+- walk us through ...
+  - note: 请某人带大家过一遍某个内容、计划、方案或 board
+  - example: Can you walk us through the plan for the next iteration?
+  - template: walk us through the [plan/design/board/timeline]
+  - status: learning
+
+- priorities
+  - note: 优先事项，常用于讨论下一轮或当前最重要的事
+  - example: Let's align on the top priorities for the next iteration.
+  - collocation: top priorities / next iteration priorities
+  - status: learning
+
 ## Mastered
