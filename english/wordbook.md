@@ -57,4 +57,14 @@
   - example: Some warnings have an empty objectId. Is that by design?
   - status: learning
 
+- reflect
+  - meaning: 反映，体现；认真思考，反思
+  - example: This result reflects the current project status.
+  - status: learning
+
+- alongside
+  - meaning: 在…旁边；与…一起，同时
+  - example: We reviewed the new plan alongside the rollover items.
+  - status: learning
+
 ## Mastered
