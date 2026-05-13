@@ -95,6 +95,8 @@ If nothing new, say so clearly — no forced updates.
 ## Rules
 
 - Do **not** ask for permission — write and report afterward
+- **Git: write files + `git add` only. Do NOT commit or push.** Tell the user what was staged and let them review before committing.
+- Do **not** write business-domain logic as general patterns— write and report afterward
 - Do **not** write business-domain logic as general patterns
 - If unsure → err on the side of **not** writing (quality over quantity)
 - Always check target KB page first to avoid duplicates

@@ -232,6 +232,15 @@ Never treat login screen content as defect data.
 
 ---
 
+## Git Rules
+
+**Write files + `git add` only. Do NOT commit or push.**
+
+After staging, tell the user:
+- Which files were staged
+- Suggested commit message
+- Ask them to run `git diff --staged` to review, then commit when ready
+
 ## Related Skills
 
 - `session-kb-update` — end-of-session KB from plan/todos (no changeset analysis)
