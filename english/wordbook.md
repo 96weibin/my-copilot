@@ -67,4 +67,28 @@
   - example: We reviewed the new plan alongside the rollover items.
   - status: learning
 
+- technically
+  - meaning: 从技术上讲，严格来说；其实实际上（口语中用来转折）
+  - example: Technically we are halfway through the PI.
+  - note: 常用来表示"虽然理论上是，但实际可能有变数"的语气
+  - status: learning
+
+- downwards
+  - meaning: 向下的，往下的（这里指向下影响到下面层级的团队）
+  - example: What is the impact downwards for the BI objectives?
+  - context: 讨论团队间影响时，指对下游/下层的影响
+  - status: learning
+
+- milestone
+  - meaning: 里程碑，重要节点（项目/计划里的关键交付点）
+  - example: This will impact our CP5 milestones.
+  - collocation: key milestone / major milestone / meet a milestone
+  - status: learning
+
+- in addition to
+  - meaning: 除此之外，另外还有（连接话题的常用表达）
+  - example: In addition to that, we will also discuss how we're handling bugs.
+  - synonym: on top of that, plus, and also
+  - status: learning
+
 ## Mastered

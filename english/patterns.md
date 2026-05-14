@@ -65,4 +65,64 @@
   - collocation: top priorities / next iteration priorities
   - status: learning
 
+- people are still coming in
+  - note: 会议开场，"还有人在陆续进来"
+  - example: People are still coming in, let's wait a few more seconds.
+  - template: wait a few more seconds / give people another 30 seconds
+  - status: learning
+
+- as I put a note in the chat
+  - note: "正如我刚才在聊天里发的"
+  - example: As I put a note in this meeting's chat yesterday, we will be going over the iteration reviews.
+  - template: as I mentioned / as I noted earlier
+  - status: learning
+
+- give a thumbs up
+  - note: "点头同意、认可"
+  - example: Can you give a thumbs up if you agree with this?
+  - status: learning
+
+- I have a hard stop at X
+  - note: "我到X点必须走了"
+  - example: I have a hard stop at 9, so we need to wrap this up.
+  - status: learning
+
+- technically + (客观陈述事实)
+  - note: 先讲理论上的情况，隐含"但实际可能不一样"的语气
+  - example: Technically since we planned four iterations, we are like halfway through the PI.
+  - template: Technically [we should be at X], so let's look at Y
+  - status: learning
+
+- we are like halfway through X
+  - note: 我们大概到了 X 的一半进度了，很自然的口语化进度表达
+  - example: Technically we are like halfway through the PI.
+  - template: halfway through [PI/iteration/sprint]
+  - status: learning
+
+- let's look at how the progress is
+  - note: 那我们来看看进展情况如何（原句口语重构整理）
+  - original messy: let's look at you know what's the how is the progress as well as
+  - clean version: Let's look at the progress and see what's happening.
+  - status: learning
+
+## ATL Meeting Action Items (Team Plum focus)
+
+- all ATLs please clean up the board
+  - note: 会议对所有 ATL 的直接要求：清理 board
+  - example: I put a note that all ATLs please clean up the Lucid board.
+  - action: identify new risks, move stories/dependencies around
+  - status: learning
+
+- raise the flag early
+  - note: ATL/POC 要尽早预警（不要拖到最后才说）
+  - example: I want POCs and ATLs raise that flag now, not later.
+  - context: features at risk, not gonna complete within PI
+  - status: learning
+
+- retrospective feedback: developers conduct more testing
+  - note: Team Plum 团队回顾会反馈出来的动作点
+  - example: Team Plum recommends developers to conduct more testing during development to reduce bugs.
+  - context: Team Plum currently has a few open bugs
+  - status: learning
+
 ## Mastered
