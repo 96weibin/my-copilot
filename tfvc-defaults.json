@@ -1,0 +1,5 @@
+{
+  "MainRoot": "D:\\Source\\Releases\\Main",
+  "DevTools": "D:\\Source\\Releases\\Main\\Psc\\_DevTools.ps1",
+  "TfsBuild": "D:\\Source\\Releases\\Main\\Psc\\TfsBuild.ps1"
+}

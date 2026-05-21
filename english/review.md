@@ -9,9 +9,9 @@
 - 高概率把 UI 状态说成中文直译：button active, validate name, pop up toast, show warning count
 - 高概率在动作句里漏连接词：click name open panel, warning objectId is empty, field changed form ...
 
-## High-Frequency Errors From English Notes
+- take through 必须接人：❌ "take the board through" ❌ "take through the board" → ✅ "take you through the board"
 
-- 拼写反复错：detail, single, assumption, warning, expression, active, display, behavior, template, attributes, automatically
+## High-Frequency Errors From English Notes- 拼写反复错：detail, single, assumption, warning, expression, active, display, behavior, template, attributes, automatically
 - UI 动作模板不稳：click the name to open ..., open the detail panel, switch to the tab, display a warning card
 - there are / has / shows 混用：说页面上“有几块区域”用 there are，说对象“有属性”用 has，说界面“显示内容”用 shows
 - 单复数和时态不稳：a toast pops up, warnings and assumptions were identified, users can click, the button is enabled

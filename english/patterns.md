@@ -66,9 +66,23 @@
   - status: learning
 
 - people are still coming in
-  - note: 会议开场，"还有人在陆续进来"
+  - note: 会议开场，"还有人在陆续进来"（泛指，不点名）
   - example: People are still coming in, let's wait a few more seconds.
   - template: wait a few more seconds / give people another 30 seconds
+  - status: learning
+
+- We're just waiting for [name] to join.
+  - note: 会议开场，等某个**特定的人**加入，语气自然不尴尬
+  - example: We're just waiting for Sarah to join. / We're just waiting for the client to join.
+  - template: We're just waiting for [name / the client / the team] to join.
+  - contrast: 泛指用 "People are still coming in" 或 "we still have some people joining"；点名等人用本句
+  - status: learning
+
+- Let's give it another minute or so.
+  - note: 会议开场缓冲句，"我们再等一分钟左右"，不指名，语气轻松自然
+  - example: Let's give it another minute or so before we get started.
+  - template: Let's give it another [minute / 30 seconds] or so.
+  - contrast: 比 "wait a few more seconds" 更正式，比 "let's start" 更有缓冲感；常和 "We're just waiting for X" 搭配使用
   - status: learning
 
 - as I put a note in the chat
@@ -123,6 +137,39 @@
   - note: Team Plum 团队回顾会反馈出来的动作点
   - example: Team Plum recommends developers to conduct more testing during development to reduce bugs.
   - context: Team Plum currently has a few open bugs
+  - status: learning
+
+- 带 through 的动词短语对比（会议/讲解场景）
+  - note: 四个短语主导者和语感不同，不可混用
+  - 对比表：
+    | 表达 | 主导者 | 语感 | 典型场景 |
+    |---|---|---|---|
+    | walk through | 说话者带听众 | 逐步讲解，有引导感 | 演示流程、教程讲解 |
+    | run through | 说话者带听众 | 快速过一遍，节奏更快 | 会议快速回顾、rehearsal |
+    | go through | 说话者自己 | 自己检查/浏览，不强调带别人 | "I'll go through the report" |
+    | take [sb] through | 说话者带某人 | 必须接人作宾语 | "Let me take you through this" |
+  - 关键区分：
+    - ❌ "take through the board" → ✅ "take you through the board"（take through 必须接人）
+    - go through 偏自己处理，walk/run through 天然含"带着大家"的意思，不需要接人
+  - example: Let me walk you through the agenda. / I'll run through the key updates. / Let me take you through the board.
+  - template: walk [us/you] through [plan/design/board] / run through [agenda/updates] / take [sb] through [content]
+  - source: 讨论会议开场介绍 agenda 的表达，发现 take through 用法错误引发的总结
+  - status: learning
+
+- get it ___ （把某物弄成某个状态）
+  - note: 理解公式 → get + 某物 + 动作结果 = 把某物弄成某个状态。后面填什么词，就是你想"弄成"的结果。不是"获得"，是"搞定/让它变成"。
+  - source: 用户误以为 "get that fixed" = "获得修好的"，实际是使役结构"把那个修好"
+  - 常用表：
+    | 表达 | 意思 | 例句 |
+    |---|---|---|
+    | get it fixed | 把它修好 | Can you get it fixed by Friday? |
+    | get it done | 把它搞完 | Let's get it done today. |
+    | get it sorted | 把它理清/解决 | I'll get it sorted.（英式常用）|
+    | get it approved | 把它审批通过 | We need to get it approved first. |
+    | get it tested | 把它测好 | Xiaoyu will get it tested next iteration. |
+    | get it deployed | 把它部署好 | Can we get it deployed this sprint? |
+    | get things moving | 推动事情进展 | Let's get things moving. |
+  - template: get + [it / things / the story / the PR] + [fixed / done / sorted / approved / tested / deployed / moving]
   - status: learning
 
 ## Mastered

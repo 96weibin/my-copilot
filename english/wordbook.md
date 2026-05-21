@@ -2,93 +2,110 @@
 
 ## Not Mastered
 
-- retrospective
-  - meaning: 回顾会，复盘会
-  - example: We will discuss this in the retrospective.
-  - status: learning
+---
 
-- rollover
-  - meaning: 顺延到下一轮，滚到下个 sprint
-  - example: This story was rolled over to the next sprint.
-  - status: learning
+### remaining
 
-- impact
-  - meaning: 影响，影响范围
-  - example: What is the impact of this change?
-  - status: learning
+- **词性**：形容词 / 动词现在分词
+- **意思**：剩余的、还剩下的（强调"还没处理完的"）
+- **常用搭配（工作/会议场景）**：
 
-- mitigation
-  - meaning: 缓解措施，降低风险的办法
-  - example: We need a mitigation plan.
-  - status: learning
+| 表达 | 意思 | 例句 |
+|---|---|---|
+| remaining items | 剩余的事项 | Let's go through the remaining items. |
+| remaining time | 剩余时间 | We have 10 minutes remaining. |
+| remaining tasks | 剩余任务 | What are the remaining tasks for this sprint? |
+| remaining issues | 剩余问题 | Are there any remaining issues? |
 
-- accordingly
-  - meaning: 相应地，因此，照此
-  - example: The requirements changed, and we updated the design accordingly.
-  - status: learning
+- **近义词对比**：
+  - `remaining`：还剩下的，强调"还没处理完的"，偏正式
+  - `left`：剩下的，更口语 → "3 days left" / "3 days remaining" 都正确
 
-- detail panel
-  - meaning: 详情面板
-  - example: Users can click the name to open the detail panel.
-  - status: learning
+- **status**：learning
 
-- single-select menu
-  - meaning: 单选下拉菜单
-  - example: The field has been changed to a single-select menu.
-  - status: learning
+---
 
-- valid
-  - meaning: 有效的，符合校验规则的
-  - example: Enter a valid name to enable the Apply button.
-  - status: learning
+### facilitator
 
-- enabled
-  - meaning: 已启用，可点击
-  - example: The Apply button is enabled.
-  - status: learning
+- **词性**：名词
+- **发音**：/fəˈsɪlɪteɪtər/
+- **意思**：主持人、协调人（负责推动会议/讨论顺利进行的人）
+- **常用搭配（工作/会议场景）**：
 
-- filtered out
-  - meaning: 被过滤掉
-  - example: ChildA is filtered out from the list.
-  - status: learning
+| 表达 | 意思 | 例句 |
+|---|---|---|
+| meeting facilitator | 会议主持人 | I'll be the facilitator for today's meeting. |
+| facilitate a meeting | 主持/推动一场会议 | She facilitated the sprint retrospective. |
+| facilitate discussion | 推动讨论 | The goal is to facilitate discussion, not to decide. |
 
-- by design
-  - meaning: 这是有意设计的吗 / 这是预期行为吗
-  - example: Some warnings have an empty objectId. Is that by design?
-  - status: learning
+- **相关词**：
+  - facilitate（动词）= 促进、推动、主持
+  - facilitation（名词）= 主持、协调的过程
 
-- reflect
-  - meaning: 反映，体现；认真思考，反思
-  - example: This result reflects the current project status.
-  - status: learning
+- **与 host / presenter 的区别**：
+  - facilitator：推动讨论、让大家参与，自己不主导结论
+  - host：负责安排和开场，偏组织者
+  - presenter：做演示/报告，自己是主讲人
 
-- alongside
-  - meaning: 在…旁边；与…一起，同时
-  - example: We reviewed the new plan alongside the rollover items.
-  - status: learning
+- **status**：learning
 
-- technically
-  - meaning: 从技术上讲，严格来说；其实实际上（口语中用来转折）
-  - example: Technically we are halfway through the PI.
-  - note: 常用来表示"虽然理论上是，但实际可能有变数"的语气
-  - status: learning
+---
 
-- downwards
-  - meaning: 向下的，往下的（这里指向下影响到下面层级的团队）
-  - example: What is the impact downwards for the BI objectives?
-  - context: 讨论团队间影响时，指对下游/下层的影响
-  - status: learning
+---
 
-- milestone
-  - meaning: 里程碑，重要节点（项目/计划里的关键交付点）
-  - example: This will impact our CP5 milestones.
-  - collocation: key milestone / major milestone / meet a milestone
-  - status: learning
+### achieved
+> 🏷️ Agile / Sprint Review
 
-- in addition to
-  - meaning: 除此之外，另外还有（连接话题的常用表达）
-  - example: In addition to that, we will also discuss how we're handling bugs.
-  - synonym: on top of that, plus, and also
-  - status: learning
+- **词性**：动词过去式 / 形容词
+- **意思**：完成了、达成了
+- **常用搭配（Agile 会议场景）**：
+
+| 表达 | 意思 | 例句 |
+|---|---|---|
+| achieve the goal | 达成目标 | We achieved all our goals this sprint. |
+| What did we achieve? | 我们完成了什么？ | What did we achieve this sprint? |
+| Goals achieved / Not achieved | 目标达成 / 未达成 | ✅ Goals achieved ／ ❌ Not achieved |
+
+- **status**：learning
+
+---
+
+### Story Outcomes
+> 🏷️ Agile / Sprint Review
+
+- **词性**：名词短语
+- **意思**：用户故事的结果/完成情况（sprint review 中逐一回顾每个 story 的完成状态）
+- **常用搭配（Agile 会议场景）**：
+
+| 表达 | 意思 | 例句 |
+|---|---|---|
+| story outcomes | 用户故事完成情况 | Let's go through the story outcomes for this sprint. |
+| outcome: Done | 结果：已完成 | Story outcome: Done |
+| outcome: Not Done | 结果：未完成 | Story outcome: Not Done |
+| outcome: Carry-over | 结果：延续到下一期 | Story outcome: Carry-over |
+
+- **status**：learning
+
+---
+
+### carry-over
+> 🏷️ Agile / Sprint Review / Iteration Planning
+
+- **词性**：名词 / 动词短语
+- **意思**：遗留项，未完成、被延续到下一个 iteration 的工作
+- **常用搭配（Agile 会议场景）**：
+
+| 表达 | 意思 | 例句 |
+|---|---|---|
+| a carry-over（名词） | 一个遗留项 | This story is a carry-over from last sprint. |
+| carry-overs（复数） | 多个遗留项 | We have 2 carry-overs going into Iteration 4. |
+| carry over（动词） | 把…延续到下一期 | We'll carry this story over to next sprint. |
+
+- **近义 / 相关词**：
+  - carry-over ≈ leftover story ≈ unfinished story rolled to next sprint
+
+- **status**：learning
+
+---
 
 ## Mastered
