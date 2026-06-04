@@ -172,4 +172,27 @@
   - template: get + [it / things / the story / the PR] + [fixed / done / sorted / approved / tested / deployed / moving]
   - status: learning
 
+- I thought ...
+  - note: 不是“我想了”，而是“我原以为……（但现在发现不是这样）”
+  - example: I thought you were going to demo the redesign today.
+  - contrast: I think = 我觉得；I thought = 我原以为
+  - status: learning
+
+- I wasn't aware that ...
+  - note: 表示“我之前不知道…… / 我没有意识到……”
+  - example: I wasn't aware that we were expected to demo the redesign in the Plum review meeting.
+  - template: I wasn't aware that + 句子
+  - status: learning
+
+- be expected to ...
+  - note: 表示“被期待 / 被预期要做……”，会议里很常用
+  - example: We were expected to demo the redesign today.
+  - template: be expected to + 动词
+  - status: learning
+
+- could we follow up after the meeting?
+  - note: ATL 高频缓冲句；先接住问题，避免当场 deep dive，再转到会后跟进
+  - example: We can follow up after the meeting and align on the demo scope.
+  - status: learning
+
 ## Mastered

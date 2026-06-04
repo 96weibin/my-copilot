@@ -10,6 +10,8 @@
 - 高概率在动作句里漏连接词：click name open panel, warning objectId is empty, field changed form ...
 
 - take through 必须接人：❌ "take the board through" ❌ "take through the board" → ✅ "take you through the board"
+- 容易把 I thought ... 误解成“已经发生了”：它常表示“我原以为……（现在发现不是）”
+- 会议里“准备了一些内容”避免直译 have some prepare，优先用 have prepared some content / have some preparation
 
 ## High-Frequency Errors From English Notes- 拼写反复错：detail, single, assumption, warning, expression, active, display, behavior, template, attributes, automatically
 - UI 动作模板不稳：click the name to open ..., open the detail panel, switch to the tab, display a warning card
@@ -54,3 +56,5 @@
 - 复习 changed from A to B / is now B instead of A
 - 复习 there is a new ... / there are new ...
 - 复习 valid name / enabled / displayed / filtered out 这类高频产品英语
+- 区分 I think / I thought 的语义差别
+- 复习 prepared / preparation 的搭配
