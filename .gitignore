@@ -6,6 +6,7 @@ session-state/
 *.cache.json
 *.log
 *.tmp
+session-store.db*
 
 # OS / editor noise
 .DS_Store
