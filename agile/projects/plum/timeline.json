@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "organization": "aspentechnology",
+    "project": "AspenTech SAFe",
+    "team": "Plum"
+  },
+  "timezone": "Asia/Shanghai",
+  "lastSyncStatus": "success",
+  "lastSyncedAt": "2026-08-20T13:07:26.4066677+08:00",
+  "source": "Azure DevOps work.list_team_iterations and work.get_team_settings",
+  "pis": [
+    {
+      "name": "PI 3",
+      "path": "AspenTech SAFe\\PI 3",
+      "startDate": "2026-06-18",
+      "finishDate": "2026-08-26",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "name": "PI 4",
+      "path": "AspenTech SAFe\\PI 4",
+      "startDate": "2026-08-27",
+      "finishDate": "2026-11-04",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    }
+  ],
+  "iterations": [
+    {
+      "id": "155b0a64-52c8-42a6-b464-d038e218ca26",
+      "name": "Iteration 3-1",
+      "path": "AspenTech SAFe\\PI 3\\Iteration 3-1",
+      "startDate": "2026-06-18",
+      "finishDate": "2026-07-01",
+      "timeFrame": "past",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "4cff9a92-bb01-486c-a23c-12e880d0c9f5",
+      "name": "Iteration 3-2",
+      "path": "AspenTech SAFe\\PI 3\\Iteration 3-2",
+      "startDate": "2026-07-02",
+      "finishDate": "2026-07-15",
+      "timeFrame": "past",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "363795c4-0a92-4101-835f-9a70aad25659",
+      "name": "Iteration 3-3",
+      "path": "AspenTech SAFe\\PI 3\\Iteration 3-3",
+      "startDate": "2026-07-16",
+      "finishDate": "2026-07-29",
+      "timeFrame": "past",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "8e2730c9-ce79-490c-8b54-2c5c721e98b1",
+      "name": "Iteration 3-4",
+      "path": "AspenTech SAFe\\PI 3\\Iteration 3-4",
+      "startDate": "2026-07-30",
+      "finishDate": "2026-08-12",
+      "timeFrame": "past",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "8ddc9740-5cb6-4d90-95a6-84998b18395d",
+      "name": "Iteration 3-5 IP",
+      "path": "AspenTech SAFe\\PI 3\\Iteration 3-5 IP",
+      "startDate": "2026-08-13",
+      "finishDate": "2026-08-26",
+      "timeFrame": "current",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "9e034390-1f01-4ccc-804f-6aaa2eeef0a2",
+      "name": "Iteration 4-1",
+      "path": "AspenTech SAFe\\PI 4\\Iteration 4-1",
+      "startDate": "2026-08-27",
+      "finishDate": "2026-09-09",
+      "timeFrame": "future",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "e701045a-07f2-4268-acea-d522bc69e21f",
+      "name": "Iteration 4-2",
+      "path": "AspenTech SAFe\\PI 4\\Iteration 4-2",
+      "startDate": "2026-09-10",
+      "finishDate": "2026-09-23",
+      "timeFrame": "future",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "e624957d-7321-40d7-8298-ee5a74ccd564",
+      "name": "Iteration 4-3",
+      "path": "AspenTech SAFe\\PI 4\\Iteration 4-3",
+      "startDate": "2026-09-24",
+      "finishDate": "2026-10-07",
+      "timeFrame": "future",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "3b92d4fb-9bce-4101-ae6e-63084b725e66",
+      "name": "Iteration 4-4",
+      "path": "AspenTech SAFe\\PI 4\\Iteration 4-4",
+      "startDate": "2026-10-08",
+      "finishDate": "2026-10-21",
+      "timeFrame": "future",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "7f755540-ca61-41a4-9edd-2ffbf9f941b7",
+      "name": "Iteration 4-5 IP",
+      "path": "AspenTech SAFe\\PI 4\\Iteration 4-5 IP",
+      "startDate": "2026-10-22",
+      "finishDate": "2026-11-04",
+      "timeFrame": "future",
+      "source": "ADO team iterations",
+      "verificationStatus": "verified"
+    }
+  ],
+  "manualMilestones": [
+    {
+      "name": "PI Planning Day 1",
+      "date": "2026-08-24",
+      "source": "user",
+      "verificationStatus": "stated"
+    },
+    {
+      "name": "PI Planning Day 2",
+      "date": "2026-08-25",
+      "source": "user",
+      "verificationStatus": "stated"
+    },
+    {
+      "name": "PI Planning Day 3 and PI 3 Iteration 5 end",
+      "date": "2026-08-26",
+      "source": "user",
+      "verificationStatus": "stated"
+    }
+  ],
+  "notes": [
+    "PI ranges are derived from the first and last Team Plum iterations under each verified PI path.",
+    "Manual milestones are retained separately and must not override ADO-configured dates."
+  ]
+}

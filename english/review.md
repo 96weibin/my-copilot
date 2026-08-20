@@ -1,5 +1,7 @@
 # Review
 
+<!-- Maintenance: keep this as a concise, on-demand review queue. Add only recurring, practice-worthy issues and avoid repeating full explanations already captured in Wordbook or Patterns. -->
+
 ## Recurring Issues
 
 - 问界面“显示什么”时，优先用 show 或 showing，不要机械套用 there are

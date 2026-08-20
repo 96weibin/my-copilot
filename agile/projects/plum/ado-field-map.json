@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "organization": "aspentechnology",
+    "project": "AspenTech SAFe",
+    "team": "Plum"
+  },
+  "pdbClassifier": {
+    "verificationStatus": "verified",
+    "workItemTypeName": "Post Development Bug",
+    "workItemTypeReferenceName": "AspenTechSAFe.PostDevelopmentBug",
+    "filter": "[System.WorkItemType] = 'Post Development Bug'",
+    "verifiedAt": "2026-08-20T13:07:26.4066677+08:00",
+    "verifiedFrom": [
+      "Shared Queries/Orchard Train/Plum/Post Development Bugs",
+      "ADO work item type metadata: AspenTechSAFe.PostDevelopmentBug"
+    ],
+    "notes": [
+      "PDB is a distinct ADO Work Item Type, not a generic Bug inferred from tags.",
+      "The saved Plum query is the baseline open-backlog definition."
+    ]
+  },
+  "savedQueries": {
+    "openPdbBacklog": {
+      "id": "5dc672e2-3d6a-43a9-a805-f2e9c5099394",
+      "path": "Shared Queries/Orchard Train/Plum/Post Development Bugs",
+      "areaPathOperator": "under",
+      "areaPath": "AspenTech SAFe\\Summit Solution Train\\Orchard ART\\Plum",
+      "excludedStates": [
+        "Closed",
+        "Removed",
+        "Validating"
+      ],
+      "lastVerifiedAt": "2026-08-20T13:07:26.4066677+08:00"
+    }
+  },
+  "coreFields": {
+    "id": "System.Id",
+    "title": "System.Title",
+    "workItemType": "System.WorkItemType",
+    "state": "System.State",
+    "assignedTo": "System.AssignedTo",
+    "areaPath": "System.AreaPath",
+    "iterationPath": "System.IterationPath",
+    "createdDate": "System.CreatedDate",
+    "changedDate": "System.ChangedDate",
+    "priority": "Custom.DefectPriority",
+    "severity": "Microsoft.VSTS.Common.Severity",
+    "tags": "System.Tags",
+    "storyPoints": "Microsoft.VSTS.Scheduling.StoryPoints"
+  },
+  "optionalFields": {
+    "productFamily": {
+      "referenceName": "Custom.ProductFamily",
+      "verificationStatus": "verified"
+    },
+    "productName": {
+      "referenceName": "Custom.ProductName",
+      "verificationStatus": "verified"
+    },
+    "productArea": {
+      "referenceName": "Custom.ProductArea",
+      "verificationStatus": "verified"
+    },
+    "productSubArea": {
+      "referenceName": "Custom.ProductSubArea",
+      "verificationStatus": "verified"
+    },
+    "source": {
+      "referenceName": "Custom.FoundBy",
+      "verificationStatus": "verified"
+    },
+    "defectClassification": {
+      "referenceName": null,
+      "verificationStatus": "unverified"
+    }
+  },
+  "knownStateValues": {
+    "values": [
+      "New",
+      "Defining",
+      "Ready",
+      "Implementing",
+      "Testing",
+      "Validating",
+      "Closed"
+    ],
+    "verificationStatus": "verified",
+    "notes": [
+      "Values were read from the Post Development Bug work item type metadata on 2026-08-20.",
+      "The saved Plum query also excludes Removed, although Removed is not present in the current type metadata state list. Preserve the saved query behavior and flag this discrepancy during query audits."
+    ]
+  }
+}

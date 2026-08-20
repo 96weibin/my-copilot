@@ -1,0 +1,16 @@
+// User settings belong in settings.json.
+// This file is managed automatically.
+{
+  "firstLaunchAt": "2026-06-18T02:52:27.065Z",
+  "appTipShown": true,
+  "lastLoggedInUser": {
+    "host": "https://github.com",
+    "login": "AspenWeibin"
+  },
+  "loggedInUsers": [
+    {
+      "host": "https://github.com",
+      "login": "AspenWeibin"
+    }
+  ]
+}

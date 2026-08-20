@@ -1,5 +1,7 @@
 # Patterns
 
+<!-- Maintenance: add only repeated user patterns or explicit learning requests. Keep the existing pattern, note, example, and status style; enrich matching entries instead of duplicating them. Generalize confidential work details. -->
+
 ## Not Mastered
 
 - there are vs has vs shows
@@ -117,6 +119,12 @@
   - note: 那我们来看看进展情况如何（原句口语重构整理）
   - original messy: let's look at you know what's the how is the progress as well as
   - clean version: Let's look at the progress and see what's happening.
+  - status: learning
+
+- do you think we have ... in triage?
+  - note: 你写的 or do you think in the triage that we have 不自然。问 triage 里是否存在某个问题，优先用这个句型。
+  - example: Do you think we have this issue in triage? / Do you think we already have something similar in triage?
+  - cleaner variants: Is this already in triage? / Do we already have this in triage?
   - status: learning
 
 ## ATL Meeting Action Items (Team Plum focus)
