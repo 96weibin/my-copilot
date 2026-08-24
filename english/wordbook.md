@@ -1,7 +1,5 @@
 # Wordbook
 
-<!-- Maintenance: record only vocabulary or expressions the user used or explicitly asked about. Search for an existing normalized entry first; update it instead of adding a duplicate. Generalize confidential work details. -->
-
 ## Not Mastered
 
 ---

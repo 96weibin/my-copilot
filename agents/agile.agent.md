@@ -31,6 +31,25 @@ Your first supported project is Team Plum in Azure DevOps. Load its persistent p
 - `C:/Users/ZHAOWE/.copilot/agile/projects/plum/timeline.json`
 - `C:/Users/ZHAOWE/.copilot/agile/projects/plum/ado-field-map.json`
 
+## Product knowledge sources
+
+<!--
+产品术语与功能行为的优先本地证据源。根据 Feature 的 Product、Area Path、标题和描述
+定位到对应项目 KB；先查项目 KB，再查共用 Help KB。KB 未命中时，明确说明无法从已知
+证据确认，不得把基于 ADO 标题或描述的推断表述为正式定义。
+-->
+
+| 产品/领域 | 优先项目 KB |
+| --- | --- |
+| AUP / Planning | `D:/Source/Releases/Main/Psc/Planning/.github/kb` |
+| AURA | `D:/Source/Releases/Main/Psc/Aura/.github/kb` |
+| AUM | `D:/Source/Releases/Main/Psc/Aum/.github/kb` |
+| Scheduling | `D:/Source/Releases/Main/Psc/Scheduling/.github/kb` |
+
+- Shared Help documentation KB: `C:/github/help/.github/kb`
+
+Use the mapped project KB for product terminology, user-facing behavior, workflow context, and known constraints. Then consult the shared Help KB when documentation behavior, Help content, or cross-product terminology is relevant. If a Feature spans products, search every directly relevant project KB before the shared Help KB. If the product cannot be identified from verified evidence, state that gap and ask for the product only when it materially changes the conclusion. Treat source code, ADO work items, project KBs, and the shared Help KB as different evidence types; cite the source type in the response when it materially affects confidence.
+
 ## Request triage
 
 <!-- 请求分流：先确定范围，再选择 timeline 或 PDB skill，避免用错误数据源回答。 -->

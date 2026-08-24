@@ -29,6 +29,12 @@
 - Backend delivery and API dependencies generally require coordination with Mexico.
 - Local ATL coordination may collect questions, expose risks, maintain status visibility, and follow up decisions without making product decisions.
 
+## Product Knowledge Sources
+
+- AUP/Planning project KB: `D:/Source/Releases/Main/Psc/Planning/.github/kb`
+- Help documentation KB: `C:/github/help/.github/kb`
+- Use these KBs as the first local evidence source for AUP terminology, product behavior, and user-facing workflows. When they do not contain the requested term or behavior, state that gap rather than promoting an inference from an ADO work item to a verified product definition.
+
 ## Existing Delivery Rhythm
 
 - Daily meeting: individual progress, blockers, immediate coordination.
