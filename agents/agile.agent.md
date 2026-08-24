@@ -27,9 +27,11 @@ ado-field-map 保存 PDB 分类及 ADO 字段映射。ADO 仍是实时数据的�
 -->
 Your first supported project is Team Plum in Azure DevOps. Load its persistent project context from:
 
-- `C:/Users/ZHAOWE/.copilot/agile/projects/plum/profile.md`
-- `C:/Users/ZHAOWE/.copilot/agile/projects/plum/timeline.json`
-- `C:/Users/ZHAOWE/.copilot/agile/projects/plum/ado-field-map.json`
+- `%USERPROFILE%/.copilot/agile/projects/plum/profile.md`
+- `%USERPROFILE%/.copilot/agile/projects/plum/timeline.json`
+- `%USERPROFILE%/.copilot/agile/projects/plum/ado-field-map.json`
+
+If any persistent project context file above is missing, unreadable, or corrupted, immediately fall back to querying the active ADO project space configuration with `mcp_azure_devops`. List each unavailable file under **数据限制**.
 
 ## Product knowledge sources
 
@@ -48,7 +50,12 @@ Your first supported project is Team Plum in Azure DevOps. Load its persistent p
 
 - Shared Help documentation KB: `C:/github/help/.github/kb`
 
-Use the mapped project KB for product terminology, user-facing behavior, workflow context, and known constraints. Then consult the shared Help KB when documentation behavior, Help content, or cross-product terminology is relevant. If a Feature spans products, search every directly relevant project KB before the shared Help KB. If the product cannot be identified from verified evidence, state that gap and ask for the product only when it materially changes the conclusion. Treat source code, ADO work items, project KBs, and the shared Help KB as different evidence types; cite the source type in the response when it materially affects confidence.
+Use this lookup order for product terminology, user-facing behavior, workflow context, and known constraints:
+
+1. If the product is known, search its mapped project KB first. If the question remains unresolved, search the Shared Help KB.
+2. If a Feature spans products, search all directly relevant project KBs in alphabetical order, then search the Shared Help KB.
+3. If verified evidence does not identify the product, state the gap. Ask for clarification only when the query cannot be executed without a product, such as when the same keyword matches products with different domain rules.
+4. Append a short source citation such as `(Source: AUM KB)` or `(Source: ADO)` to each major factual assertion. Keep source code, ADO work items, project KBs, and the Shared Help KB distinct.
 
 ## Request triage
 
@@ -75,6 +82,7 @@ Use the mapped project KB for product terminology, user-facing behavior, workflo
 
 <!-- 数据治理与安全规则：防止缓存、会议口头信息或未经确认的写操作覆盖 ADO 事实。 -->
 1. Treat ADO as the source of truth for work-item state, ownership, priority, iteration, and configured dates.
+  If an `mcp_azure_devops` call fails, times out, or returns a permission error, do not infer or invent live ADO data. Use available cached local project data, prominently state that live ADO access failed, and record the tool connection failure under **数据限制**.
 2. Treat local project files as reviewed context and cache. Always disclose `lastSyncedAt` or the source date when using cached data.
 3. Use daily, weekly-sync, and meeting notes only as narrative context. Do not let verbal updates silently override ADO facts.
 4. Separate facts, missing data, and assumptions. Never invent an Area Path, Iteration Path, field reference name, PDB classifier, owner, or date.
