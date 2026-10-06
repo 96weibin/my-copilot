@@ -1,6 +1,8 @@
 # Runtime and local state
 ide/
 session-state/
+agile/projects/plum/reports/tfvc-daily/
+logs/tfvc-team-daily-report/
 
 # VS Code Copilot local cache and metadata
 *.cache.json

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "organization": "aspentechnology",
+  "collectionUrl": "http://hqtfs03:8080/tfs/defaultcollection",
+  "project": "AspenTech SAFe",
+  "timeZoneId": "China Standard Time",
+  "scopes": [
+    {
+      "name": "AUM",
+      "serverPath": "$/UnifiedPIMS/Releases/Main/Psc/Aum"
+    },
+    {
+      "name": "AURA",
+      "serverPath": "$/UnifiedPIMS/Releases/Main/Psc/Aura"
+    }
+  ],
+  "teamScope": {
+    "primaryTeam": "Plum",
+    "includedCounterpartTeams": [
+      "Capulin"
+    ],
+    "areaPaths": {
+      "Plum": {
+        "value": "AspenTech SAFe\\Summit Solution Train\\Orchard ART\\Plum",
+        "verificationStatus": "verified"
+      },
+      "Capulin": {
+        "value": null,
+        "verificationStatus": "unverified"
+      }
+    }
+  },
+  "identityOverrides": [
+    {
+      "team": "Plum",
+      "canonicalName": "Zhao, Weibin",
+      "aliases": ["Weibin Zhao"],
+      "emails": ["weibin.zhao@aspentechnology.com", "weibin.zhao@emerson.com"],
+      "accounts": ["CORP\\ZHAOWE"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Zhou, Mengling",
+      "aliases": ["Mengling Zhou"],
+      "emails": ["mengling.zhou@aspentechnology.com", "mengling.zhou@emerson.com"],
+      "accounts": ["CORP\\ZHOUM"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Xie, Anna",
+      "aliases": ["Anna Xie"],
+      "emails": ["anna.xie@aspentechnology.com", "anna.xie@emerson.com"],
+      "accounts": ["CORP\\XIEAN"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Liu, Jin (Carrie)",
+      "aliases": ["Jin (Carrie) Liu", "Carrie Liu"],
+      "emails": ["carrie.liu@aspentechnology.com", "carrie.liu@emerson.com"],
+      "accounts": ["CORP\\LINCAR"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Gan, Alaia",
+      "aliases": ["Alaia Gan", "Alaina Gan"],
+      "emails": ["alaia.gan@aspentechnology.com", "alaia.gan@emerson.com"],
+      "accounts": ["CORP\\GANAL"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Tang, Alex (Xiaoyu)",
+      "aliases": ["Xiaoyu (Alex) Tang", "Alex Tang", "Xiaoyu Tang"],
+      "emails": ["xiaoyu.tang@aspentechnology.com", "xiaoyu.tang@emerson.com"],
+      "accounts": ["CORP\\TANGXIA"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Wu, Mengjiao",
+      "aliases": ["Mengjiao Wu"],
+      "emails": ["mengjiao.wu@aspentechnology.com", "mengjiao.wu@emerson.com"],
+      "accounts": ["CORP\\WUMEN"]
+    },
+    {
+      "team": "Plum",
+      "canonicalName": "Gu, Siyi",
+      "aliases": ["Siyi Gu"],
+      "emails": ["siyi.gu@aspentechnology.com", "siyi.gu@emerson.com"],
+      "accounts": ["CORP\\GUSI"]
+    },
+    {
+      "team": "Capulin",
+      "canonicalName": "Alex Joyal",
+      "aliases": ["Joyal, Alexander", "Alexander Joyal"],
+      "emails": [],
+      "accounts": []
+    },
+    {
+      "team": "Capulin",
+      "canonicalName": "Diego Diaz",
+      "aliases": ["Diaz, Diego"],
+      "emails": [],
+      "accounts": []
+    },
+    {
+      "team": "Capulin",
+      "canonicalName": "Julio Rivera",
+      "aliases": ["Rivera, JulioRoberto", "JulioRoberto Rivera"],
+      "emails": [],
+      "accounts": []
+    }
+  ],
+  "patEnvironmentVariable": "AZURE_DEVOPS_PAT",
+  "output": {
+    "reportRoot": "agile/projects/plum/reports/tfvc-daily",
+    "statePath": "ide/tfvc-team-daily-report/state.json",
+    "logRoot": "logs/tfvc-team-daily-report"
+  },
+  "schedule": {
+    "taskName": "TFVC-Team-Plum-Daily-Report",
+    "days": ["MON", "TUE", "WED", "THU", "FRI"],
+    "startTime": "10:00"
+  }
+}

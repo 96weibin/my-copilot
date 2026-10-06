@@ -131,67 +131,26 @@
   ],
   "manualMilestones": [
     {
-      "name": "PI-4 Program Kickoff with Technology Leadership",
-      "date": "2026-08-20",
-      "time": "08:00-09:00",
-      "timeZone": "UTC-05:00 (as stated in invitation)",
-      "attendancePriority": "optional",
-      "agendaStatus": "to follow",
-      "source": "user",
-      "verificationStatus": "stated"
-    },
-    {
-      "name": "Orchard ART PI 4 Planning Day 1",
+      "name": "PI Planning Day 1",
       "date": "2026-08-24",
-      "time": "10:00-11:30",
-      "timeZone": "EST (as stated in invitation)",
-      "agenda": [
-        "Introduction",
-        "Business update and Product/Solution Vision",
-        "Prioritized Backlog Review",
-        "Architecture and Platform Update",
-        "Lucidchart review and Q&A"
-      ],
-      "atlPreparation": "Prepare the Lucid draft plan for the Day 2 team review.",
       "source": "user",
       "verificationStatus": "stated"
     },
     {
-      "name": "Orchard ART PI 4 Planning Day 2",
+      "name": "PI Planning Day 2",
       "date": "2026-08-25",
-      "time": "09:00-11:30",
-      "timeZone": "EST (as stated in invitation)",
-      "agenda": [
-        "Day 1 Recap and Planning Guidance",
-        "Draft Plan Reviews",
-        "Risks and Issues Consolidation"
-      ],
-      "atlResponsibility": "Demo the Lucid draft plan during the Draft Plan Reviews; capture Product and Architecture feedback, dependencies, risks, and required plan changes.",
-      "priority": "high",
       "source": "user",
       "verificationStatus": "stated"
     },
     {
-      "name": "Orchard ART PI 4 Planning Day 3 and PI 3 Iteration 5 end",
+      "name": "PI Planning Day 3 and PI 3 Iteration 5 end",
       "date": "2026-08-26",
-      "time": "09:00-11:30",
-      "timeZone": "EST (as stated in invitation)",
-      "agenda": [
-        "Day 2 Recap and Final Instructions",
-        "Finalize Team Plans",
-        "Dependencies Review",
-        "Risks Review and ROAMing",
-        "Confidence Vote",
-        "Retrospective and Feedback"
-      ],
-      "atlPreparation": "Apply Day 2 review feedback, then confirm finalized plan, dependencies, risks, and confidence-vote readiness with the PO.",
       "source": "user",
       "verificationStatus": "stated"
     }
   ],
   "notes": [
     "PI ranges are derived from the first and last Team Plum iterations under each verified PI path.",
-    "Manual milestones are retained separately and must not override ADO-configured dates.",
-    "The Modeling and Optimization PI 4 Kickoff invitation has no date or time in the available information, so it is not recorded as a dated milestone."
+    "Manual milestones are retained separately and must not override ADO-configured dates."
   ]
 }
